@@ -133,7 +133,7 @@ public class MaterialConstruccionDao {
                 conexion.close();
             }
         }
-
+        
         //Retornar la instancia del material o el nulo para validaciones posteriores
         return materialActualizado;        
     }

@@ -105,7 +105,7 @@ public class CRUD_Materiales_GUI extends JFrame {
         btnAdicionar = new JButton(redimensionarIcono(new ImageIcon("img/adicion.png"), 32));
         btnAdicionar.setText("Adicionar"); 
         btnAdicionar.addActionListener(controlador);        
-        btnAdicionar.setActionCommand("adicionarMaterial");
+        btnAdicionar.setActionCommand("adicionarMaterial");    
 
         btnActualizar = new JButton(redimensionarIcono(new ImageIcon("img/actualizar.png"), 32));
         btnActualizar.setText("Actualizar"); 
